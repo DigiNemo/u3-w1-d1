@@ -1,11 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import ButtonComponent from "./Components/Button";
+import ImageComponents from "./Components/Img";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <ImageComponents imageSrc="https://placedog.net/300" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
@@ -17,6 +18,7 @@ function App() {
         >
           Learn React
         </a>
+        <ButtonComponent buttonText="Clicca qui!" />
       </header>
     </div>
   );
