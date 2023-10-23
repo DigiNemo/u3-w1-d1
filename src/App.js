@@ -1,6 +1,6 @@
 import "./App.css";
 import ButtonComponent from "./Components/Button";
-import ImageComponents from "./Components/Img";
+import ImageComponent from "./Components/Img";
 
 function App() {
   return (
